@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('/src/fonts/static/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Шрифт підтримує змінні ваги */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/src/fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FigtreeExtraBold';
+    src: url('/src/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FigtreeSemiBold';
+    src: url('/src/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

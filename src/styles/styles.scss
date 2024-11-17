@@ -1,6 +1,37 @@
+@use 'fonts';
 @use 'variables';
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: variables.$main-color;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92svh;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    gap: 24px;
+    background-color: variables.$white;
+    border-radius: 20px;
+    padding: 24px;
+    height: 522px;
+    width: 384px;
+}
+
+.image-container__image {
+    border-radius: 10px;
 }
