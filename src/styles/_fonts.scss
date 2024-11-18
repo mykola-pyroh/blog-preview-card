@@ -1,27 +1,44 @@
 @font-face {
-    font-family: 'Figtree';
-    src: url('/src/fonts/static/Figtree-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900; /* Шрифт підтримує змінні ваги */
+    font-family: 'Text Preset 1';
+    src: url('./src/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Figtree';
-    src: url('/src/fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'FigtreeExtraBold';
-    src: url('/src/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
+    font-family: 'Text Preset 2';
+    src: url('./src/fonts/static/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'FigtreeSemiBold';
-    src: url('/src/fonts/static/Figtree-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-family: 'Text Preset 3';
+    src: url('./src/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Text Preset 4';
+    src: url('./src/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+// @font-face {
+//     font-family: 'Figtree';
+//     src: url('./src/fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+//     font-weight: 100 900;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'FigtreeSemiBold';
+//     src: url('./src/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: normal;
+// }

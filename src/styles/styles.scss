@@ -1,11 +1,11 @@
-@use 'fonts';
-@use 'variables';
+@use './fonts';
+@use './variables';
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Figtree', sans-serif;
+    font-family: 'Text Preset 3';
 }
 
 body {
@@ -22,16 +22,93 @@ main {
 .card-component {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    // justify-content: center;
     gap: 24px;
     background-color: variables.$white;
+    border: 1px solid variables.$prime-font-color;
     border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px variables.$prime-font-color;
+                -webkit-box-shadow: 8px 8px 0px 0px variables.$prime-font-color;
+                -moz-box-shadow: 8px 8px 0px 0px variables.$prime-font-color;
     padding: 24px;
     height: 522px;
     width: 384px;
+    &__summary-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        h3 {
+            background-color: variables.$main-color;
+            border-radius: 4px;
+            font-family: 'Text Preset 3';
+            font-size: 14px;
+            letter-spacing: 0px;
+            line-height: 150%;
+            padding: 4px 12px;
+            width: fit-content;
+        }
+        h4 {
+            font-family: 'Text Preset 3';
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 0px;
+            line-height: 150%;
+            color: variables.$prime-font-color;
+        }
+        h1 {
+            font-family: 'Text Preset 1';
+            font-size: 24px;
+            letter-spacing: 0px;
+            line-height: 150%;
+            &:hover {
+                color: variables.$main-color;
+                cursor: pointer;
+            }
+        }
+        p {
+            font-size: 16px;
+            font-weight: normal;
+            letter-spacing: 0px;
+            line-height: 150%;
+            color: variables.$secondary-font-color;
+        }
+    }
+    &__autor-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+    }
+}
+
+.card-component__image-container {
+    align-self: center;
+    height: 200px;
 }
 
 .image-container__image {
     border-radius: 10px;
+    height: 200px;
+}
+
+.autor-container{
+    &__autor-photo{
+        height: 32px;
+        width: 32px;
+    }
+    &__autor-name{
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 150%;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8svh;
+    a {
+        color: variables.$link-color;
+    }
 }
